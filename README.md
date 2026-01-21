@@ -27,7 +27,8 @@ I built this so I can play music videos with title cards in Plex (the release ye
 
 Music videos must be named like this:  
 "artist - title (remix) [original artist] (year, album) [extras].videoextension"  
-(" - " has to be between artist and title, "(year)" or "(year, ...)" is the second important distinguisher), everything else is optional  
+-------------------------------------------------------------------------
+(" - " has to be between artist and title, "(year)" or "(year, album)" is the second important distinguisher), everything else is optional  
 at least "artist - title.ext" has to be present in every single file in the chosen directory (and its subdirectories), otherwise the program will not run
 
 Examples:  
