@@ -8,6 +8,12 @@ be extremely careful using it.
 If you don't know what you are doing:
 Don't do it!
 -------------------------------------------------------------------------
+For everyone:
+Music Video Renamer (From Subtitles).ps1 is not part of this project.
+Do NOT use it!
+For GP:
+Music Video Renamer (From Subtitles).ps1 is to rename your files.
+-------------------------------------------------------------------------
 
 Installation requirements (programs should be in windows path):
 powershell (obviously)
