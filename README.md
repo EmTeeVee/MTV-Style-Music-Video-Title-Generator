@@ -9,8 +9,8 @@ If you don't know what you are doing:
 DON'T DO IT!
 -------------------------------------------------------------------------
 For everyone:
-Music Video Renamer (From Subtitles).ps1 is not part of this project.
-Do NOT use it!
+Music Video Renamer (From Subtitles).ps1 is not part of this project.  
+DO NOT USE IT!
 -------------------------------------------------------------------------
 For GP:
 Music Video Renamer (From Subtitles).ps1 is to rename your files.
@@ -41,4 +41,4 @@ Eurythmics - Here Comes The Rain Again (1983, Touch)_eng.srt
 Eurythmics - Here Comes The Rain Again (1983, Touch)_fre.srt  
 
 
-Finally, some information is written at the end of the filename in wavy brackets {} after muxing, so that {SD}, {4K}, {AV1} or {VP9} files are marked. This is for quality and compatibilty reasons (at least I found it useful to have that).
+Finally, some information is written at the end of the filename in wavy brackets {} after muxing, so that {SD}, {4K}, {AV1} or {VP9} files are marked. This is for quality and compatibilty reasons that one might have to consider.
