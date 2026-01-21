@@ -17,10 +17,15 @@ Music Video Renamer (From Subtitles).ps1 is to rename your files.
 -------------------------------------------------------------------------
 
 Installation requirements (programs should be in windows path):
+
 powershell (obviously)
+
 ffprobe
+
 ffmpeg
+
 mkvmerge
+
 also the MTV style font "Kabel-Black.ttf" should be available, ideally in the folder you are muxing in, as it is added to the muxed file
 
 I built this so I can play music videos with title cards in Plex (the release year after running this script should be visible in Plex, so sorting by year or decade is not a problem anymore), but please be aware that because of the way Plex works, it usually transcodes the ass-subtitles contained in the final *.mkv files. If you use an NVidia shield or the Plex Desktop App it should work fine, in other scenarios the transcoding might cause problems.
