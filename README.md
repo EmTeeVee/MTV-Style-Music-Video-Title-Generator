@@ -39,13 +39,9 @@ Examples:
 
 Siouxsie And The Banshees - Kiss Them For Me (1991, Superstition).vob
 
-Cyndi Lauper - She Bop (1983, She's So Unusual).mp4
-
 ABBA - I Can Be That Woman (2021, Voyage) [Lyric Video].mp4
 
 Blondie - The Tide Is High [The Paragons] (1980, Autoamerican).mkv
-
-Amrit Kirtan - Mool Mantra.avi
 
 Additionally, the script can add subtitle tracks to the music videos if you have them present alongside your music video file and named accordingly.
 
