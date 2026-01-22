@@ -1,5 +1,5 @@
 # MTV-Style-Music-Video-Title-Generator
-Creates MTV Style Title Cards for music videos using their filenames
+Creates MTV Style Title Cards (*.ass subtitles) for music videos using their filenames
 -------------------------------------------------------------------------
 Please be aware that this scripts deletes/muxes all your original files,
 so I strongly advise you to use it in a copied folder and
@@ -23,7 +23,7 @@ ffmpeg
 mkvmerge  
 also, the MTV style font "Kabel-Black.ttf" should be available, ideally in the folder you are muxing in (the script will prompt you for it, if it is not there), as it is added to the muxed file  
 
-I built this so I can play music videos with title cards in Plex (the release year after running this script should be visible in Plex, so sorting by year or decade is not a problem anymore), but please be aware that because of the way Plex works, it usually transcodes the ass-subtitles contained in the final *.mkv files. If you use an NVidia shield or the Plex Desktop App it should work fine, in other scenarios the transcoding might cause problems.
+I built this so I can play music videos with title cards in Plex (the release year after running this script should be visible in Plex, so sorting by year or decade is not a problem anymore), but please be aware that because of the way Plex works, it usually transcodes the video to show the *.ass subtitles contained in the final *.mkv files. If you use an NVidia shield or the Plex Desktop App it should work without transcoding, in other scenarios the transcoding of higher resolutions might cause playback problems.
 
 Music videos must be named like this:  
 "artist - title (remix) [original artist] (year, album) [extras].videoextension"  
