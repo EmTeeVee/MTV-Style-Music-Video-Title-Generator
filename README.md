@@ -38,10 +38,10 @@ characters that can be used in filenames that are recognized/converted by the sc
 
 Examples:  
 ABBA - I Can Be That Woman (2021, Voyage) [Lyric Video].mp4  
-a-ha - Take On Me (1984, Hunting High And Low) [35mm].mp4
-Billie Eilish - No Time To Die (2020, No Time To Die꞉ Soundtrack).mp4
+a-ha - Take On Me (1984, Hunting High And Low) [35mm].mp4  
+Billie Eilish - No Time To Die (2020, No Time To Die꞉ Soundtrack).mp4  
 Blondie - The Tide Is High [The Paragons] (1980, Autoamerican).mkv  
-Siouxsie And The Banshees - Kiss Them For Me (1991, Superstition).vob
+Siouxsie And The Banshees - Kiss Them For Me (1991, Superstition).vob  
 Tarja - Frosty The Snowman (2023, Dark Christmas) {Xmas}.mkv
 
 Additionally, the script can add subtitle tracks to the music videos if you have them present alongside your music video file and named accordingly, for example:  
