@@ -31,13 +31,17 @@ Please be aware that because of the way Plex works, it usually transcodes the vi
 Music videos must be named like this:  
 "artist - title (remix) [original artist] (year, album) [extras] {genre}.videoextension"  
 -------------------------------------------------------------------------
-(" - " has to be between artist and title, "(year)" or "(year, album)" is the second important distinguisher), everything else is optional  
+" - " has to be between artist and title (artist names containing a dash have to be written without spaces)
+(year) or (year, album) is the second important distinguisher, everything else is optional  
 at least "artist - title.ext" has to be present in every single file in the chosen directory (and its subdirectories), otherwise the program will not run
+characters that can be used in filenames that are recognized/converted by the script are ∕ and ꞉
 
 Examples:  
-Siouxsie And The Banshees - Kiss Them For Me (1991, Superstition).vob  
 ABBA - I Can Be That Woman (2021, Voyage) [Lyric Video].mp4  
+a-ha - Take On Me (1984, Hunting High And Low) [35mm].mp4
+Billie Eilish - No Time To Die (2020, No Time To Die꞉ Soundtrack).mp4
 Blondie - The Tide Is High [The Paragons] (1980, Autoamerican).mkv  
+Siouxsie And The Banshees - Kiss Them For Me (1991, Superstition).vob
 Tarja - Frosty The Snowman (2023, Dark Christmas) {Xmas}.mkv
 
 Additionally, the script can add subtitle tracks to the music videos if you have them present alongside your music video file and named accordingly, for example:  
@@ -48,5 +52,9 @@ Eurythmics - Here Comes The Rain Again (1983, Touch)_fre.srt
 Finally, some information is written at the end of the filename in wavy brackets {} after muxing, so that {SD}, {4K}, {AV1} or {VP9} files are marked. This is for quality and compatibilty reasons that one might have to consider.
 
 I found it helpful to add {Xmas} at the end for christmas music, so that I can ask Plex to only play those tracks during hot summer nights...
+
+Usage in Plex:
+-------------------------------------------------------------------------
+For the title cards to be visible in Plex, the music videos have to be added as 'other videos' (agent: personal media) and under settings - languages - subtitle mode "shown with foreign audio" and prefer subtitles in "english" has to be selected. If there are lyric subtitles as well inside the *.mkv files, those would be showing if the subtitle mode is set to "always enabled" - in this case, videos that do not have lyric subtitles will still show the *.ass title cards.
 
 <img src="https://komarev.com/ghpvc/?username=EmTeeVee" width="1" height="1" />
